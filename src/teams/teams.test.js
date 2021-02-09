@@ -11,8 +11,8 @@ describe("Team", function() {
     });
 
     it("should throw invalid ID", function() {
-        expect(() => retrieveTeamMembers()).toThrow("Team not found");
-        // expect(() => retrieveTeamMembers()).toThrow("Invalid ID");
+        // expect(() => retrieveTeamMembers()).toThrow("Team not found");
+        expect(() => retrieveTeamMembers()).toThrow("Invalid ID");
     });
 
 })
